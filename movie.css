@@ -1,0 +1,78 @@
+body{
+    width: 100%;
+    height: auto;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-image: url(./img/fondrose.jpeg);
+    background-repeat: repeat;
+}
+main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+ 
+}
+img{
+    width: 100%;
+    height: 24em;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px 5px 0px 5px;
+    background-color: rgb(240, 126, 223);
+
+}
+h1{
+    background-color: rgb(240, 126, 223);
+    margin: 0;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    font-size: 1.2em;
+
+}
+
+h2{
+    margin-left: 5px;
+    color: white;
+}
+
+p{
+    padding: 5px;
+    color: white;
+    font-size: 13px;
+}
+section{
+    width: 19em;
+    height:auto;
+    border: 3px solid var(--GrillColor);
+    border-radius: 0.5em;
+    margin: 1.5em 1em;
+    position: relative;
+    background-color: rgba(1, 1, 10, 0.747);
+ 
+}
+.Description{
+    padding-bottom: 50px;
+   
+}
+.note{
+    margin-top: 2em;
+    margin-left: 0.5em;
+    width: 50px;
+    height: 50px;
+    border-radius: 20em;
+    background-color: rgb(240, 126, 223);
+    font-size: 0.8em;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    bottom: 7px;
+    
+  }
+
+
